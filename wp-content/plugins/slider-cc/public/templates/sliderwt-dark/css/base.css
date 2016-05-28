@@ -1,0 +1,106 @@
+/*** General ***/
+
+.sliderwt ul li {
+	position: relative;
+}
+
+/*** Header ***/
+
+.sliderwt .slidercc-title {
+	position: absolute;
+	top: 45%!important;
+	left: 5%!important;
+	width: 90%!important;
+	padding: 0 30px 0 30px!important;
+	text-align: center!important;
+}
+.sliderwt .slidercc-title, .sliderwt .slidercc-title h2 {
+	font-family: 'Oswald', sans-serif!important;
+	font-weight: 700!important;
+	font-size: 35px!important;
+	line-height: 50px!important;
+	text-transform: uppercase!important;
+	margin:0 !important;
+}
+
+
+/*** Description ***/
+
+.sliderwt .slidercc-desc, .sliderwt .slidercc-desc p {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif!important;
+	font-weight: 400!important;
+	font-size: 12px!important;
+	line-height: 20px!important;
+	text-align: center!important;
+	text-transform: none!important;
+}
+.sliderwt .slidercc-desc p {
+	padding: 0!important;
+	margin: 0 auto!important;
+}
+
+/*** Link ***/
+
+.sliderwt a, .sliderwt a:hover {
+	text-decoration: none!important;
+}
+
+/*** Arrows ***/
+
+.sliderwt .scc-arrows > a.scc-next:before,
+.sliderwt .scc-arrows > a.scc-prev:before
+ {
+	display: block!important;
+	width: 24px!important;
+	height: 44px!important;
+}
+.sliderwt .scc-arrows > a.scc-next:before {
+	right: 15px!important;
+}
+.sliderwt .scc-arrows > a.scc-prev:before {
+	left: 15px!important;
+}
+
+/*** Pagination ***/
+
+.sliderwt .scc-pagination {
+  bottom: 17px!important;
+  position: absolute!important;
+  width: 100%!important;
+  font-size: 0!important;
+  	z-index: 3;
+}
+.sliderwt .scc-pagination > a {
+	width: 7px !important;
+	height: 7px !important;
+	border-radius: 7px !important;
+	vertical-align: middle;
+}
+.sliderwt .scc-pagination > a.scc-active {
+	width: 7px !important;
+	height: 7px !important;
+	border-radius: 7px !important;
+	background: #fff!important;
+	/*border: 2px solid #191919!important;*/
+	border-bottom: 0!important;
+}
+
+/*** Thumbnails ***/
+
+.scc-wrapper.sliderccth {
+	bottom: 90px!important;
+	padding: 0!important;
+  	margin: 0!important;
+  	z-index: 3;
+}
+.scc-wrapper.sliderccth .scc-arrows {
+	display: none;
+}
+.sliderccth ul li {
+	cursor: pointer;
+}
+
+.sliderccth .slides {
+	margin: 0 auto !important;
+}
